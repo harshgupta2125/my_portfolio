@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">HG</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌙</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="photo.jpg" alt="Harsh Gupta" class="profile-photo">
+                <h1>Harsh Gupta</h1>
+                <p>BCA Student | Aspiring Web Developer</p>
+                <div class="social-links">
+                    <a href="https://github.com/harshgupta2125" target="_blank"><i class="fab fa-github"></i>Github</a>
+                    <a href="https://linkedin.com/in/harsh-gupta-890314299" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+                    <a href="https://instagram.com/harsh.gupta0" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+                    <a href="https://www.facebook.com/people/Harsh-Harsh/pfbid0bERUgnoX7axWi48ycL9FuUmwoAF1h4UDrDsXLYVsUfLsVF3uRbR2JgfiZpaMxp9fl/?name=xhp_nt__fb__action__open_user" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                    <a href="https://twitter.com/HarshGupta_0" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Harsh Gupta, a passionate second-year BCA (Bachelor of Computer Applications) student at Galgotias University. With a keen interest in exploring new technologies, I'm constantly pushing the boundaries of my knowledge and skills in the ever-evolving world of computer science. My programming repertoire includes Python, HTML, CSS, JavaScript, C, and C++, allowing me to tackle a wide range of projects and challenges.
+            </p>
+            <p>
+                As an aspiring technologist, I'm dedicated to honing my craft and staying at the forefront of industry trends. My academic journey, combined with hands-on project experience, has equipped me with a solid foundation in software development and web technologies. I'm excited to leverage my skills and enthusiasm to contribute to innovative projects and continue growing as a professional in the tech industry.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Web-dev-projects</h3>
+                    <p>Projects on github using frontend and backend.</p>
+                    <a href="https://github.com/harshgupta2125/web-dev-projects.git" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>C-Projects</h3>
+                    <p>Project using C++ language.</p>
+                    <a href="https://github.com/harshgupta2125/C-Projects.git" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Python-Projects</h3>
+                    <p>Project using Python language.</p>
+                    <a href="https://github.com/harshgupta2125/Python-Projects.git" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <h3>Zscaler zero trust cloud security Certificate</h3>
+                    <p>Eduskill Virtual Internship</p>
+                    <a href="zscaler cert.pdf" class="btn">View Certificate</a>
+                </div>
+                <div class="certificate-card">
+                    <h3>Computer Hardware </h3>
+                    <p>Cisco Networking Academy</p>
+                    <a href="Computer_Hardware_Basics_Badge20240207-29-i99rj.pdf" class="btn">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Harsh Gupta. All rights reserved.</p>
+    </footer>
+</body>
+</html>
