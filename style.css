@@ -100,6 +100,10 @@ section {
     padding: 4rem 5%;
 }
 
+#Resume{
+    text-align: center;
+    margin-top: 10px;
+}
 .hero {
     height: 100vh;
     display: flex;
@@ -247,4 +251,14 @@ footer {
 
 .notification.error {
     background-color: #f44336;
+}
+
+.resume-card {
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px 0; /* Margin above and below the card */
+    text-align: center; /* Center the text */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
