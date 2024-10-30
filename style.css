@@ -27,6 +27,7 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
+    background-color: ;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -254,11 +255,18 @@ footer {
 }
 
 .resume-card {
-    border: 1px solid #ccc; /* Add a border */
+    border: 1px solid #ccc; /* Light border */
     border-radius: 8px; /* Rounded corners */
     padding: 20px; /* Padding inside the card */
     margin: 20px 0; /* Margin above and below the card */
     text-align: center; /* Center the text */
     background-color: #f9f9f9; /* Light background color */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Dark mode styles for resume card */
+.dark-mode .resume-card {
+    border: 1px solid #444; /* Darker border */
+    background-color: #2a2a2a; /* Dark background color */
+    color: var(--text-color); /* Text color from dark mode */
 }
